@@ -13,6 +13,8 @@ app.get("/", function (req, res) {
   res.sendFile("signup.html", { root: __dirname });
 });
 //8ecb5966147982bec35740307fcda33e-us1
+//req need changes
+
 app.post("/", function (req, res) {
   console.log(req.body);
   var x = req.body.num1;
